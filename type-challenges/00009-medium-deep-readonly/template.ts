@@ -4,6 +4,6 @@ type DeepReadonly<T> = {
         : DeepReadonly<T[Key]>;
 };
 
-// 判断value 是否是 never
+// 判断 T[Key] 的属性 是否是 never
 // 是 表示是基础类型 
 // 否 递归调用
